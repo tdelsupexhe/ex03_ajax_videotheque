@@ -10,7 +10,7 @@ namespace App\config;
 class Config{
     public static function getPDO(){
         try {
-            $pdo = new \PDO('mysql:host=localhost;dbname=videotheque', 'root', '');
+            $pdo = new \PDO('mysql:host=127.0.0.1;dbname=videotheque', 'root', '');
 
             return $pdo;
 
